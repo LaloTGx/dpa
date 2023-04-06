@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="registrarseEspecialistaVM" type="com.dpa.app.modules.registrarseespecialista.data.viewmodel.RegistrarseEspecialistaVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameRegistrarseesp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <View android:background="@color/amber_100"
+            android:id="@+id/viewRectangleOne"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_800pxh"
+            android:layout_marginEnd="@dimen/_1pxh"
+            android:layout_marginStart="@dimen/_1pxh" android:layout_width="@dimen/_360pxh"/>
+        <FrameLayout android:id="@+id/frameStackhactividadesebg"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_800pxv"
+            android:layout_marginEnd="@dimen/_1pxh"
+            android:layout_marginStart="@dimen/_1pxh" android:layout_width="@dimen/_360pxh">
+            <ImageView android:id="@+id/imageHActividadesEBg"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_hactividadesebg}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_hactividadesebg"/>
+            <LinearLayout android:id="@+id/linearColumnlogoone"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_40pxh"
+                android:layout_marginVertical="@dimen/_40pxv"
+                android:layout_width="wrap_content" android:orientation="vertical">
+                <ImageView android:id="@+id/imageLogoOne"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_94pxh"
+                    android:layout_marginEnd="@dimen/_55pxh"
+                    android:layout_marginStart="@dimen/_55pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_logo1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_logo1"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtNombre"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_55pxh"
+                    android:layout_marginStart="@dimen/_55pxh"
+                    android:layout_marginTop="@dimen/_13pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtNombre}"
+                    style="@style/txtInterregular12" tools:text="@string/lbl_nombre"/>
+                <View
+                    android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
+                    android:id="@+id/viewRectangleThree"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_47pxv"
+                    android:layout_marginEnd="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh"/>
+                <FrameLayout
+                    android:id="@+id/frameStackrectanglethreeOne"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_61pxv"
+                    android:layout_marginEnd="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_9pxv" android:layout_width="@dimen/_233pxh">
+                    <View
+                        android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
+                        android:id="@+id/viewRectangleThreeOne"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_47pxv"
+                        android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_233pxh"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtApellido"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_93pxh"
+                        android:layout_marginStart="@dimen/_93pxh"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtApellido}"
+                        style="@style/txtInterregular12" tools:text="@string/lbl_apellido"/>
+                </FrameLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtCorreoElectron"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_55pxh"
+                    android:layout_marginStart="@dimen/_55pxh"
+                    android:layout_marginTop="@dimen/_8pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtCorreoElectron}"
+                    style="@style/txtInterregular12" tools:text="@string/msg_correo_electron"/>
+                <View
+                    android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
+                    android:id="@+id/viewRectangleThreeTwo"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_47pxv"
+                    android:layout_marginEnd="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtContrasea"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_55pxh"
+                    android:layout_marginStart="@dimen/_55pxh"
+                    android:layout_marginTop="@dimen/_8pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtContrasea}"
+                    style="@style/txtInterregular12" tools:text="@string/lbl_contrase_a"/>
+                <View
+                    android:background="@drawable/rectangle_bg_gray_101_border_black_900_radius_23_5"
+                    android:id="@+id/viewRectangleThreeThree"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_47pxv"
+                    android:layout_marginStart="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtCedlaProfesio"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_55pxh"
+                    android:layout_marginStart="@dimen/_55pxh"
+                    android:layout_marginTop="@dimen/_17pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtCedlaProfesio}"
+                    style="@style/txtInterregular12" tools:text="@string/msg_ced_la_profesio"/>
+                <View
+                    android:background="@drawable/rectangle_bg_gray_101_border_black_900_radius_23_5"
+                    android:id="@+id/viewRectangleThreeFour"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_47pxv"
+                    android:layout_marginStart="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnIniciar"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_49pxh"
+                    android:layout_marginStart="@dimen/_55pxh"
+                    android:layout_marginTop="@dimen/_69pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_13pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_13pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_iniciar"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline_11" tools:text="@string/lbl_iniciar"/>
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</layout>

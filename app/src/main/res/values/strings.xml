@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">dpa</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_nombre_andrea2">Nombre: Andrea Cala</string>
+<string name="lbl_no">No        </string>
+<string name="lbl_inquietud_40">Inquietud: 40%</string>
+<string name="msg_en_linea_juan">EN LINEA- Juan Villavalzo</string>
+<string name="msg_preocupacion_5">Preocupacion: 50%</string>
+<string name="lbl_leve">Leve </string>
+<string name="msg_con_temblor_en">Con temblor en las piernas</string>
+<string name="lbl2">-- -- --- --- </string>
+<string name="lbl_home">Home</string>
+<string name="lbl_desguanse">Desguanse</string>
+<string name="lbl_acalorado">Acalorado</string>
+<string name="lbl_300">300</string>
+<string name="msg_andrea_cala_sol">Andrea Cala
+Solicita informes de su consultorio.</string>
+<string name="lbl_tacto">Tacto</string>
+<string name="msg_hace_3min_osca">HACE 3MIN- Oscar Flores</string>
+<string name="msg_en_linea_karem">EN LINEA- Karem Muñoz</string>
+<string name="lbl_visual">Visual</string>
+<string name="lbl_52">+52</string>
+<string name="msg_ninguno_de_las">Ninguno 
+de las 
+anteriores</string>
+<string name="lbl_apellido">Apellido</string>
+<string name="lbl_social">SOCIAL</string>
+<string name="lbl_visualiza2">VISUALIZA</string>
+<string name="lbl_mostrar">Mostrar</string>
+<string name="msg_nivel_de_ansied">Nivel de Ansiedad</string>
+<string name="msg_nombre_karem_m">Nombre: Karem Muñoz
+Edad: 13 años
+No. telefonico: 2461249830</string>
+<string name="lbl_identifica2">IDENTIFICA</string>
+<string name="msg_llegada_de_avio">Llegada_de_avion</string>
+<string name="msg_nombre_juan_vi">Nombre: Juan Villavalzo</string>
+<string name="lbl_edad">Edad</string>
+<string name="lbl_ansiedad_alta">Ansiedad alta</string>
+<string name="msg_nombre_oscar_f2">Nombre: Oscar Flores</string>
+<string name="lbl_oprime2">OPRIME</string>
+<string name="msg_dpa_su_sistema">DPA
+Su sistema se actualizó
+Correctamente</string>
+<string name="msg_codigo_recibido">Codigo Recibido de su correo</string>
+<string name="lbl_visualiza">Visualiza</string>
+<string name="lbl_iniciar">INICIAR</string>
+<string name="msg_los_audios_que">Los audios que estan acontinuacion le podrian llegar a generar ansiedad. 
+\u2028Por lo general tome precauciones al escuchar los siguientes audios</string>
+<string name="lbl_sintomas">Sintomas</string>
+<string name="lbl_aceptar">Aceptar</string>
+<string name="msg_hola_doc_esta_d">Hola doc esta disponible?</string>
+<string name="lbl_paciente">PACIENTE</string>
+<string name="lbl_comprobacion">COMPROBACION</string>
+<string name="lbl_tdah">TDAH</string>
+<string name="msg_nombre_karem_m2">Nombre: Karem Muñoz</string>
+<string name="msg_hace_1_dia_and">HACE 1 DIA- Andrea Cala</string>
+<string name="lbl_olas_del_mar">Olas_del_mar</string>
+<string name="lbl_especialista">ESPECIALISTA</string>
+<string name="lbl_mensaje_nuevo">MENSAJE NUEVO</string>
+<string name="msg_juan_villavalzo">Juan Villavalzo
+Te envió el siguiente mensaje</string>
+<string name="lbl_sintomas2">SINTOMAS</string>
+<string name="lbl_notificaciones">NOTIFICACIONES</string>
+<string name="lbl_resultados">Resultados</string>
+<string name="lbl_resultados2">RESULTADOS</string>
+<string name="lbl_moderado">Moderado</string>
+<string name="lbl_puntos_16">Puntos:  16</string>
+<string name="lbl_oprime">Oprime</string>
+<string name="msg">-                 -                 -</string>
+<string name="msg_ced_la_profesio">Cedúla Profesional</string>
+<string name="lbl_gusto">Gusto</string>
+<string name="lbl_metalico">Metalico</string>
+<string name="lbl_nervioso">Nervioso</string>
+<string name="msg_nombre_andrea">Nombre: Andrea Cala
+Edad: 11 años
+No. telefonico: 325398402</string>
+<string name="lbl_identifica">Identifica</string>
+<string name="msg_miedo_p_nico">Miedo. Pánico. Fobia. Preocupación. Nerviosismo. Todos nombres relacionados con la más inquietante de las emociones humanas, la ansiedad.</string>
+<string name="msg_correo_electron">Correo Electronico</string>
+<string name="msg_temperatura_30">Temperatura: 30c</string>
+<string name="msg_nombre_oscar_f">Nombre: Oscar Flores
+Edad: 18 años
+No. telefonico: 2221234593</string>
+<string name="msg_sus_datos_han_s">Sus datos han sido guardados correctamente, puede regresar a Home desde la barra de navegación.</string>
+<string name="lbl_auditivo">Auditivo</string>
+<string name="lbl_inquietud">Inquietud</string>
+<string name="msg_ok_doc_voy_par">Ok, doc voy para alla</string>
+<string name="lbl_comprobaci_n">Comprobación</string>
+<string name="lbl_bpm">BPM</string>
+<string name="lbl_preocupaci_n">Preocupación</string>
+<string name="lbl_escucha2">ESCUCHA</string>
+<string name="lbl_escucha">Escucha</string>
+<string name="lbl_temperatura">Temperatura</string>
+<string name="lbl_descargar">DESCARGAR</string>
+<string name="msg_necesito_que_me">Necesito que me agende cita</string>
+<string name="lbl">-- --- -- ---</string>
+<string name="lbl_bastante">Bastante</string>
+<string name="lbl_pacientes2">PACIENTES</string>
+<string name="lbl_puntaje">Puntaje:</string>
+<string name="lbl_registrarse">REGISTRARSE</string>
+<string name="msg_ha_percibido_a">¿Ha percibido alguno de estos sabores?</string>
+<string name="lbl_0">0</string>
+<string name="lbl_1">1</string>
+<string name="lbl_crear_resumen">CREAR RESUMEN</string>
+<string name="lbl_2">2</string>
+<string name="lbl_3">3</string>
+<string name="msg_estadisticas">Estadisticas          Rango 1-100 per</string>
+<string name="lbl_nombre">Nombre</string>
+<string name="msg_ultima_consulta">Ultima Consulta
+01-02-2020
+Dr. Trujillo</string>
+<string name="lbl_bpm_60_s">BPM: 60/s</string>
+<string name="msg_el_archivo_ha_s">El Archivo ha sido descargado correctamente.</string>
+<string name="lbl_pacientes">Pacientes</string>
+<string name="msg_nombre_juan_vi2">Nombre: Juan Villavalzo
+Edad: 22 años
+No. telefonico: 246938042</string>
+<string name="msg_nombre_marcos2">Nombre: Marcos Manicuilt</string>
+<string name="msg_nombre_marcos">Nombre: Marcos Manicuilt
+Edad: 15 años
+No. telefonico: 2461349850</string>
+<string name="lbl_sin_sabor">Sin sabor</string>
+<string name="lbl_leve2">Leve</string>
+<string name="msg_si_me_podria_en">Si me podria enviar mis resultados?</string>
+<string name="msg_incapaz_de_rela">Incapaz de relajarse</string>
+<string name="lbl_desguanse_32">Desguanse: 32%</string>
+<string name="lbl_preguntas">Preguntas</string>
+<string name="msg_con_temor_a_que">Con temor a que ocurra lo peor</string>
+<string name="lbl_contrase_a">Contraseña</string>
+<string name="msg_numero_telefoni">Numero Telefonico</string>
+<string name="msg_con_latidos_del">Con latidos del corazón fuertes y acelerados</string>
+<string name="msg_oscar_flores_so">Oscar Flores
+Solicita su diagnostico</string>
+<string name="lbl_amargo">Amargo</string>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="homeEspecialistaVM" type="com.dpa.app.modules.homeespecialista.data.viewmodel.HomeEspecialistaVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackhactividadesebg"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <FrameLayout android:id="@+id/frameHomeEspecialis"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStyleamber_100">
+            <ImageView android:id="@+id/imageHActividadesEBg"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_800pxh"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_width="@dimen/_360pxh"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_hactividadesebg}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_hactividadesebg"/>
+            <LinearLayout android:id="@+id/linearColumnhometit"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_21pxv"
+                android:layout_marginEnd="@dimen/_62pxh"
+                android:layout_marginStart="@dimen/_62pxh"
+                android:layout_marginTop="@dimen/_21pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtHometit"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{homeEspecialistaVM.homeEspecialistaModel.txtHometit}"
+                    style="@style/txtBioRhymeregular64" tools:text="@string/lbl_home"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnPacientes"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_7pxh"
+                    android:layout_marginStart="@dimen/_6pxh"
+                    android:layout_marginTop="@dimen/_31pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_10pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_10pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_pacientes"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline_12" tools:text="@string/lbl_pacientes"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnResultados"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_7pxh"
+                    android:layout_marginStart="@dimen/_6pxh"
+                    android:layout_marginTop="@dimen/_28pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_10pxv"
+                    android:paddingEnd="@dimen/_29pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_10pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_resultados"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline_13" tools:text="@string/lbl_resultados"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnComprobacin"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_7pxh"
+                    android:layout_marginStart="@dimen/_6pxh"
+                    android:layout_marginTop="@dimen/_42pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_13pxv"
+                    android:paddingEnd="@dimen/_14pxh"
+                    android:paddingStart="@dimen/_14pxh"
+                    android:paddingTop="@dimen/_13pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_comprobaci_n"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline_14" tools:text="@string/lbl_comprobaci_n"/>
+                <LinearLayout android:id="@+id/linearRowpolygonone"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_153pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal" style="@style/groupStyleblack_900_a5cornerRadius">
+                    <FrameLayout android:id="@+id/frameStackpolygonone"
+                        android:layout_height="@dimen/_56pxv"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_3pxv" android:layout_width="@dimen/_58pxh">
+                        <ImageView android:id="@+id/imagePolygonOne"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_56pxh"
+                            android:layout_width="@dimen/_58pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_polygon1"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_polygon1"/>
+                        <ImageView android:id="@+id/imageNotification"
+                            android:layout_gravity="bottom|center"
+                            android:layout_height="@dimen/_40pxh"
+                            android:layout_marginBottom="@dimen/_5pxv"
+                            android:layout_marginEnd="@dimen/_11pxh"
+                            android:layout_marginStart="@dimen/_11pxh"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="@dimen/_35pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_notification"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_notification"/>
+                    </FrameLayout>
+                    <FrameLayout android:id="@+id/frameStackpolygontwo"
+                        android:layout_height="@dimen/_56pxv"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_marginEnd="@dimen/_9pxh"
+                        android:layout_marginStart="@dimen/_90pxh"
+                        android:layout_marginTop="@dimen/_3pxv" android:layout_width="@dimen/_58pxh">
+                        <ImageView android:id="@+id/imagePolygonTwo"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_56pxh"
+                            android:layout_width="@dimen/_58pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_polygon1"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_polygon1"/>
+                        <FrameLayout android:id="@+id/frameStacklock"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_39pxv"
+                            android:layout_marginBottom="@dimen/_9pxv"
+                            android:layout_marginEnd="@dimen/_7pxh"
+                            android:layout_marginStart="@dimen/_7pxh"
+                            android:layout_marginTop="@dimen/_8pxv" android:layout_width="@dimen/_44pxh">
+                            <ImageView android:id="@+id/imageLock"
+                                android:layout_gravity="top|end"
+                                android:layout_height="@dimen/_36pxh"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_marginStart="@dimen/_10pxh"
+                                android:layout_width="@dimen/_21pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_lock"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_lock"/>
+                            <ImageView android:id="@+id/imageUser"
+                                android:layout_gravity="bottom|start"
+                                android:layout_height="@dimen/_36pxh"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_width="@dimen/_30pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_user"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_user"/>
+                        </FrameLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:backgroundTint="@color/deep_orange_100_cc"
+            android:id="@+id/floatingBtnFloatingactionbutton"
+            android:layout_gravity="bottom|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_21pxv"
+            android:layout_marginEnd="@dimen/_141pxh"
+            android:layout_marginStart="@dimen/_141pxh"
+            android:layout_marginTop="@dimen/_21pxv"
+            android:layout_width="wrap_content"
+            app:fabCustomSize="@dimen/_70pxh"
+            app:srcCompat="@drawable/img_home" app:tint="@color/black_900"/>
+    </FrameLayout>
+</layout>

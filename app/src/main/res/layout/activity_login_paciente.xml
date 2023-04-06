@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="loginPacienteVM" type="com.dpa.app.modules.loginpaciente.data.viewmodel.LoginPacienteVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearLoginpaciente"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleamber_100">
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameStackloginpaciente"
+            android:layout_height="match_parent" android:layout_width="match_parent">
+            <ImageView android:id="@+id/imageLoginpaciente"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_loginpaciente}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_loginpaciente"/>
+            <LinearLayout android:id="@+id/linearColumndpaone"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_104pxv"
+                android:layout_marginTop="@dimen/_104pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <ImageView android:gravity="start"
+                    android:id="@+id/imageDPAOne"
+                    android:layout_height="@dimen/_331pxh"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_dpa1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_dpa1"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnIniciar"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_115pxh"
+                    android:layout_marginStart="@dimen/_115pxh"
+                    android:layout_marginTop="@dimen/_37pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_13pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_13pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_iniciar"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline_7" tools:text="@string/lbl_iniciar"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnRegistrarse"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_115pxh"
+                    android:layout_marginStart="@dimen/_115pxh"
+                    android:layout_marginTop="@dimen/_12pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_13pxv"
+                    android:paddingEnd="@dimen/_25pxh"
+                    android:paddingStart="@dimen/_24pxh"
+                    android:paddingTop="@dimen/_13pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_registrarse"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline_7" tools:text="@string/lbl_registrarse"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

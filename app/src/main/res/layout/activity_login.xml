@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="loginVM" type="com.dpa.app.modules.login.data.viewmodel.LoginVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearLogin"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleamber_100">
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameStackloginbgone"
+            android:layout_height="match_parent" android:layout_width="match_parent">
+            <ImageView android:id="@+id/imageLoginBgOne"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_loginbg1}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_loginbg1"/>
+            <LinearLayout android:id="@+id/linearColumndpaone"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_104pxv"
+                android:layout_marginTop="@dimen/_104pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <ImageView android:gravity="start"
+                    android:id="@+id/imageDPAOne"
+                    android:layout_height="@dimen/_324pxh"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_dpa1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_dpa1"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnPaciente"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_115pxh"
+                    android:layout_marginStart="@dimen/_115pxh"
+                    android:layout_marginTop="@dimen/_37pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_13pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_13pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_paciente"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline" tools:text="@string/lbl_paciente"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnEspecialista"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_115pxh"
+                    android:layout_marginStart="@dimen/_115pxh"
+                    android:layout_marginTop="@dimen/_12pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_13pxv"
+                    android:paddingEnd="@dimen/_24pxh"
+                    android:paddingStart="@dimen/_24pxh"
+                    android:paddingTop="@dimen/_13pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_especialista"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline_1" tools:text="@string/lbl_especialista"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

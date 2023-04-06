@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="notificacionesRowModel" type="com.dpa.app.modules.notificaciones.data.model.NotificacionesRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowgroup196"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <FrameLayout android:id="@+id/frameStackgroup196"
+            android:layout_height="@dimen/_60pxv" android:layout_width="@dimen/_63pxh">
+            <ImageButton
+                android:background="@drawable/rectangle_bg_bluegray_100_border_black_900_radius_30_01"
+                android:id="@+id/btnGroup196"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_60pxh"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="@dimen/_60pxh"
+                android:paddingHorizontal="@dimen/_7pxh"
+                android:paddingVertical="@dimen/_7pxv"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_iconssiete" tools:ignore="ContentDescription"/>
+            <View
+                android:background="@drawable/rectangle_bg_light_green_a700_a3_radius_7"
+                android:id="@+id/viewEllipseThirteen"
+                android:layout_gravity="top|end"
+                android:layout_height="@dimen/_12pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_3pxv" android:layout_width="@dimen/_14pxh"/>
+        </FrameLayout>
+        <TextView android:id="@+id/txtOscarFloresSo"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_7pxv"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_weight="0.71" android:layout_width="0dp"
+            android:text="@{notificacionesRowModel.txtOscarFloresSo}"
+            style="@style/txtComicNeuebold16" tools:text="@string/msg_oscar_flores_so"/>
+    </LinearLayout>
+</layout>

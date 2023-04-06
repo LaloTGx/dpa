@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="visualRowModel" type="com.dpa.app.modules.visual.data.model.VisualRowModel"/>
+    </data>
+    <ImageView android:id="@+id/imageImage"
+        android:layout_height="@dimen/_135pxv"
+        android:layout_width="match_parent" android:scaleType="fitXY"
+        cornerRadius="@{@dimen/_40pxh}"
+        imageRes="@{@drawable/img_image23}"
+        tools:ignore="ContentDescription" tools:src="@drawable/img_image23"/>
+</layout>
