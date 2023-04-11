@@ -46,12 +46,15 @@
                     android:singleLine="true"
                     android:text="@{iniciarSesionPacienteVM.iniciarSesionPacienteModel.txtCorreoElectron}"
                     style="@style/txtInterregular12" tools:text="@string/msg_correo_electron"/>
-                <View
+
+                <EditText
+                    android:id="@+id/editTextPaciEmailAddress_Access"
                     android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
-                    android:id="@+id/viewRectangleThree"
                     android:layout_gravity="start"
                     android:layout_height="@dimen/_47pxv"
-                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_245pxh"/>
+                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_245pxh"
+                    android:inputType="textEmailAddress" />
+
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtContrasea"
                     android:layout_gravity="center_horizontal"
@@ -63,13 +66,17 @@
                     android:singleLine="true"
                     android:text="@{iniciarSesionPacienteVM.iniciarSesionPacienteModel.txtContrasea}"
                     style="@style/txtInterregular12" tools:text="@string/lbl_contrase_a"/>
-                <View
-                    android:background="@drawable/rectangle_bg_gray_101_border_black_900_radius_23_5"
-                    android:id="@+id/viewRectangleThreeOne"
+                <EditText
+                    android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
+                    android:id="@+id/editTextPaciPassword_Access"
                     android:layout_gravity="center_horizontal"
                     android:layout_height="@dimen/_47pxv"
                     android:layout_marginEnd="@dimen/_1pxh"
-                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_244pxh"/>
+                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_244pxh"
+                    android:ems="10"
+                    android:inputType="textPassword"/>
+
+
                 <androidx.appcompat.widget.AppCompatButton
                     android:ellipsize="end" android:gravity="center"
                     android:id="@+id/btnIniciar"

@@ -50,37 +50,38 @@
                     android:singleLine="true"
                     android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtNombre}"
                     style="@style/txtInterregular12" tools:text="@string/lbl_nombre"/>
-                <View
+                <EditText
                     android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:id="@+id/viewRectangleThree"
                     android:layout_gravity="center_horizontal"
                     android:layout_height="@dimen/_47pxv"
                     android:layout_marginEnd="@dimen/_1pxh"
                     android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh"/>
-                <FrameLayout
-                    android:id="@+id/frameStackrectanglethreeOne"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_height="@dimen/_61pxv"
-                    android:layout_marginEnd="@dimen/_1pxh"
-                    android:layout_marginTop="@dimen/_9pxv" android:layout_width="@dimen/_233pxh">
-                    <View
-                        android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
-                        android:id="@+id/viewRectangleThreeOne"
-                        android:layout_gravity="bottom|start"
-                        android:layout_height="@dimen/_47pxv"
-                        android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_233pxh"/>
-                    <TextView android:ellipsize="end"
-                        android:id="@+id/txtApellido"
-                        android:layout_gravity="top|center"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/_10pxv"
-                        android:layout_marginEnd="@dimen/_93pxh"
-                        android:layout_marginStart="@dimen/_93pxh"
-                        android:layout_width="wrap_content"
-                        android:singleLine="true"
-                        android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtApellido}"
-                        style="@style/txtInterregular12" tools:text="@string/lbl_apellido"/>
-                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/txtApellido"
+                    style="@style/txtInterregular12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:layout_marginStart="@dimen/_93pxh"
+                    android:layout_marginEnd="@dimen/_93pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtApellido}"
+                    tools:text="@string/lbl_apellido" />
+
+                <EditText
+                    android:id="@+id/viewRectangleThreeOne"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="@dimen/_233pxh"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5" />
+
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtCorreoElectron"
                     android:layout_gravity="center_horizontal"
@@ -92,13 +93,18 @@
                     android:singleLine="true"
                     android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtCorreoElectron}"
                     style="@style/txtInterregular12" tools:text="@string/msg_correo_electron"/>
-                <View
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress2"
+                    android:ems="10"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:inputType="textEmailAddress"
                     android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
-                    android:id="@+id/viewRectangleThreeTwo"
                     android:layout_gravity="center_horizontal"
                     android:layout_height="@dimen/_47pxv"
                     android:layout_marginEnd="@dimen/_1pxh"
                     android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh"/>
+
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtContrasea"
                     android:layout_gravity="center_horizontal"
@@ -110,13 +116,18 @@
                     android:singleLine="true"
                     android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtContrasea}"
                     style="@style/txtInterregular12" tools:text="@string/lbl_contrase_a"/>
-                <View
-                    android:background="@drawable/rectangle_bg_gray_101_border_black_900_radius_23_5"
-                    android:id="@+id/viewRectangleThreeThree"
+
+                <EditText
+                    android:id="@+id/editTextTextPassword2"
+                    android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_gravity="center_horizontal"
                     android:layout_height="@dimen/_47pxv"
                     android:layout_marginStart="@dimen/_1pxh"
-                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh"/>
+                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtCedlaProfesio"
                     android:layout_gravity="center_horizontal"
@@ -128,13 +139,16 @@
                     android:singleLine="true"
                     android:text="@{registrarseEspecialistaVM.registrarseEspecialistaModel.txtCedlaProfesio}"
                     style="@style/txtInterregular12" tools:text="@string/msg_ced_la_profesio"/>
-                <View
-                    android:background="@drawable/rectangle_bg_gray_101_border_black_900_radius_23_5"
-                    android:id="@+id/viewRectangleThreeFour"
+
+                <EditText
+                    android:id="@+id/editTextNumber"
+                    android:background="@drawable/rectangle_bg_gray_100_border_black_900_radius_23_5"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_gravity="center_horizontal"
                     android:layout_height="@dimen/_47pxv"
                     android:layout_marginStart="@dimen/_1pxh"
-                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh"/>
+                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_233pxh" />
+
                 <androidx.appcompat.widget.AppCompatButton
                     android:ellipsize="end" android:gravity="center"
                     android:id="@+id/btnIniciar"
